@@ -9,8 +9,8 @@ from itertools import product
 # --------------------------
 MODEL_CONFIGS = {
     "gemini": {
-        "url": "https://turingai.plus/v1/chat/completions",
-        "api_key": "sk-KpLhOfeTDtXvmHutLpl9lg0y5Mivk82sfMIU2q0GxK74kB5O",
+        "url": "xxx",  #填写大模型的部署地址
+        "api_key": "xxx",  #如果是本地模型则可以填任意值
         "model_name": "gemini-2.5-flash-lite",
         "max_tokens": 150,
         "temperature": 0.7,
@@ -18,8 +18,8 @@ MODEL_CONFIGS = {
         "stop": None
     },
     "deepseek": {
-        "url": "https://turingai.plus/v1/chat/completions",
-        "api_key": "sk-KpLhOfeTDtXvmHutLpl9lg0y5Mivk82sfMIU2q0GxK74kB5O",
+        "url": "xxx",
+        "api_key": "xxx",
         "model_name": "deepseek-v3.1-250821",
         "max_tokens": 200,
         "temperature": 0.7,
@@ -27,8 +27,8 @@ MODEL_CONFIGS = {
         "stop": None
     },
     "claude": {
-        "url": "https://turingai.plus/v1/chat/completions",
-        "api_key": "sk-KpLhOfeTDtXvmHutLpl9lg0y5Mivk82sfMIU2q0GxK74kB5O",
+        "url": "xxx",
+        "api_key": "xxx",
         "model_name": "claude-sonnet-4-20250514",
         "max_tokens": 300,
         "temperature": 0.7,
@@ -36,8 +36,8 @@ MODEL_CONFIGS = {
         "stop": None
     },
     "gpt": {
-        "url": "https://turingai.plus/v1/chat/completions",
-        "api_key": "sk-KpLhOfeTDtXvmHutLpl9lg0y5Mivk82sfMIU2q0GxK74kB5O",
+        "url": "xxx",
+        "api_key": "xxx",
         "model_name": "gpt-5-mini",
         "max_tokens": 800,
         "temperature": 0.7,
@@ -262,4 +262,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
