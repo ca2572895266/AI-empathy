@@ -10,8 +10,8 @@ import numpy as np
 # 1. 配置参数
 # --------------------------
 MODEL_CONFIG = {
-    "url": "https://turingai.plus/v1/chat/completions",
-    "api_key": "sk-KpLhOfeTDtXvmHutLpl9lg0y5Mivk82sfMIU2q0GxK74kB5O",
+    "url": "xxx",  #填写大模型的部署地址
+    "api_key": "xxx",  #如果是本地模型则可以填任意值
     "model_name": "gpt-4o",
     "max_tokens": 300,
     "temperature": 0.7,
@@ -19,8 +19,8 @@ MODEL_CONFIG = {
 }
 
 RETRY_CONFIG = {
-    "max_retries": 10,
-    "retry_delay": 5,
+    "max_retries": 10,  # 生成失败最大重试次数
+    "retry_delay": 5,  # 重试间隔(秒)
 }
 
 # --------------------------
@@ -285,4 +285,5 @@ def main(scoring_input_file):
 # --------------------------
 if __name__ == "__main__":
     INPUT_FILE = "deepseek_results_1.xlsx"
+
     main(INPUT_FILE)
