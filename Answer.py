@@ -29,6 +29,7 @@ MODEL_CONFIGS = {
     "claude": {
         "url": "xxx",
         "api_key": "xxx",
+        "model_name": "claude-sonnet-4-20250514",
         "max_tokens": 300,
         "temperature": 0.7,
         "timeout": 1000,
